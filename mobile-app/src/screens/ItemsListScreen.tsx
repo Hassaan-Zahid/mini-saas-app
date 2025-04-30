@@ -32,7 +32,7 @@ const ItemsListScreen: React.FC<ItemsListScreenProps> = ({ navigation }) => {
         fetchItems();
 
         // @ts-ignore
-        const pusher = new Pusher('e154607f3abdcae7338e', {
+        const pusher = new Pusher('', {
             cluster: 'ap2',
             encrypted: true
         });
